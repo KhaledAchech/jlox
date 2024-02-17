@@ -27,7 +27,7 @@ public class GenerateAst {
         String path = outputDir + "/" + baseName + ".java";
         PrintWriter writer = new PrintWriter(path, "UTF-8");
 
-        writer.println("Package com.khaled.lox;");
+        writer.println("package com.khaled.lox;");
         writer.println();
         writer.println("import java.util.List;");
         writer.println();
